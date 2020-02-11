@@ -3,7 +3,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    color: grey;
+    color: rgb(0, 0, 0);
 }
 
 .offset:before{
@@ -33,7 +33,7 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #1ebba3;
+    color: #ff0000;
 }
 
 /*--- Landing Page ---*/
@@ -88,13 +88,13 @@ body {
     padding: .6rem 1.2rem;
     margin: 1rem;
     color: white;
-    background-color: #1ebba3;
-    border-color: #1ebba3;
+    background-color: #ff0000;
+    border-color: #ff0000;
 }
 
 .btn-secondary:hover {
-    background-color: #189582;
-    border-color: #1ebba3;
+    background-color: #ff0000;
+    border-color: #ff0000;
 }
 
 /* Features Section */
@@ -115,12 +115,12 @@ h3.heading {
 .heading-underline{
     width: 3rem;
     height: .2rem;
-    background-color: #1ebba3;
+    background-color: #ff0000;
     margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa {
-color: #1ebba3;
+color: #ff0000;
 }
 
 .feature h3 {
@@ -133,9 +133,9 @@ color: #1ebba3;
     font-size: 1.1rem;
 }
 
-/* Resources Section */
+/* Games Section */
 .fixed {
-    background-image: url(../img/apple.png);
+    background-image: url(../img/game.png);
     z-index: -1;
 }
 .dark {
@@ -158,17 +158,17 @@ margin-top: 1.5rem;
 }
 
 .blockquote .svg-inline--fa {
-    color: #1ebba3;
+    color: #ff0000;
     margin: 1rem;
 }
 
 .fans-hr {
-    border-top: .5rem solid #1ebba3;
+    border-top: .5rem solid #ff0000;
 }
 
 /* Contact Section */
 footer {
-    background-color: #40474e;
+    background-color: #000000;
     color: white;
     padding: 2rem 0 2rem;
 }
@@ -189,12 +189,12 @@ footer svg.svg-inline--fa{
 }
 
 footer svg.svg-inline--fa:hover {
-    color: #1ebba3 !important;
+    color: #00eeff !important;
 }
 
 hr.socket {
     width: 100%;
-    border-top: .2rem solid #666b71;
+    border-top: .2rem solid #000000;
     margin-top: .3rem;
 }
 
